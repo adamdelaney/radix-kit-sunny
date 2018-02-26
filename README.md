@@ -1,3 +1,7 @@
+# About
+The Sunny Kit provides a subtheme based on Radix to incoporate light, modern styles based on the Catering and Center for Conferences websites.
+
+
 # Installation
 
 {{Name}} theme uses [Gulp](http://gulpjs.com) to compile Sass. Gulp needs Node.
