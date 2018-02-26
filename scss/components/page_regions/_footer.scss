@@ -1,0 +1,72 @@
+.footer {
+  margin-top: 3rem;
+  padding: 3rem 0;
+  color: #999;
+  background-color: #212221;
+  border-top: 6px solid $brand-yellow;
+  font-weight: $fw-regular;
+  @extend .font-smoothing-on;
+
+  a {
+    color: #fff;
+    border-bottom: 1px dotted #222;
+  }
+
+  .region-footer {
+    margin-bottom: 3rem;
+  }
+
+  .block__title {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: $fw-bold;
+    margin: 0 0 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    border-bottom: 1px solid #4c4a4a;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 60%;
+      height: 1px;
+      background-color: $brand-yellow;
+    }
+  }
+
+  a[href*="facebook.com"]:before {
+    @include fa(facebook-square);
+    margin-right: 0.3em;
+  }
+
+  a[href*="twitter.com"]:before {
+    @include fa(twitter);
+    margin-right: 0.3em;
+  }
+
+  a[href*="youtube.com"]:before {
+    @include fa(youtube);
+    margin-right: 0.3em;
+  }
+
+  a[href*="flickr.com"]:before {
+    @include fa(flickr);
+    margin-right: 0.3em;
+  }
+
+  a[href*="instagram.com"]:before {
+    @include fa(instagram);
+    margin-right: 0.3em;
+  }
+
+  a[href*="linkedin.com"]:before {
+    @include fa(linkedin);
+    margin-right: 0.3em;
+  }
+
+  .block-masquerade {
+    clear: both;
+  }
+}

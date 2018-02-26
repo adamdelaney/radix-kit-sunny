@@ -1,0 +1,47 @@
+.header {
+  margin: 0;
+  padding: 2rem 0;
+  background-color: $header-bg-color;
+  position: relative;
+  border-bottom: none;
+
+  .header-navbar {
+    @include breakpoint(md) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .navbar-branding {
+    text-transform: uppercase;
+    color: $text-color;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+
+    .site-name {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .site-name-large {
+      font-weight: $fw-black;
+      font-size: 4rem;
+      line-height: 0.8;
+    }
+
+    .site-name-small {
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
+  }
+
+  .region-main-nav {
+    .block__title {
+      @extend .sr-only
+    }
+  }
+}

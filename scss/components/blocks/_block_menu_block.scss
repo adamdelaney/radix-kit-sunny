@@ -1,0 +1,19 @@
+.block-menu-block {
+  @extend .panel;
+  @extend .panel-default;
+
+  .block__title {
+    @extend .panel-heading;
+    @extend .font-smoothing-on;
+    font-size: 1.6rem;
+    font-weight: $fw-bold;
+    margin: 0;
+    background: lighten($header-bg-color, 10%);
+    color: #fff;
+
+    a {
+      color: #fff;
+      display: block;
+    }
+  }
+}
