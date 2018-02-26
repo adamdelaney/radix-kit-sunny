@@ -23,5 +23,5 @@ Update `browserSyncProxy` in **config.json**.
 #### Step 5
 Run the following command to compile Sass and watch for changes: `gulp`.
 
-# Building a new subtheme from the SiteNow Kit
+# Building a new subtheme from the Sunny Kit
 Check out the [Kit instructions](KIT.md).
