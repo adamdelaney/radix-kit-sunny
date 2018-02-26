@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Theme and preprocess functions for nodes.
+ */
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function {{machine_name}}_preprocess_node(&$vars) {
+  // Add theme hook suggestion for view mode.
+  $vars['theme_hook_suggestions'][] = 'node__' . $vars['type'] . '__' . $vars['view_mode'];
+}
