@@ -8,7 +8,7 @@
 /**
  * Implements hook_preprocess_html().
  */
-function {{machine_name}}_preprocess_html(&$vars) {
+function sunny_preprocess_html(&$vars) {
   // Include typkit assets.
   $typekit_id = '';
   if (!empty($typekit_id)) {

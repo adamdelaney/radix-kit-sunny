@@ -8,12 +8,13 @@
     font-size: 1.6rem;
     font-weight: $fw-bold;
     margin: 0;
-    background: lighten($header-bg-color, 10%);
-    color: #fff;
+    background: $panel-default-heading-bg;
+    color: $panel-default-text;
 
     a {
-      color: #fff;
+      color: $panel-default-text;
       display: block;
+      font-weight: $fw-bold;
     }
   }
 }

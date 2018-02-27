@@ -1,0 +1,16 @@
+.panel-group {
+  .panel-heading {
+    &:hover, &:focus {
+      background-color: lighten($brand-yellow, 45);
+    }
+  }
+
+  .panel-title {
+    a[data-toggle="collapse"] {
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+}

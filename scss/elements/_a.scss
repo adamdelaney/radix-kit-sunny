@@ -1,7 +1,3 @@
 .main-content a {
   font-weight: $fw-medium;
-
-  &:visited:not(.btn) {
-    color: $link-visited;
-  }
 }

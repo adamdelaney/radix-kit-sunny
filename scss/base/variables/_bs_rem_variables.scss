@@ -3,7 +3,7 @@
 * Ported from Less version here: https://gist.github.com/jasny/9731895
 */
 $font-size-root: 10px;
-$font-unit: 1.6rem; // Pick em or rem here
+$font-unit: 1.7rem; // Pick em or rem here
 
 // Convert all variables to em
 $font-size-base: 1 * $font-unit;
@@ -47,4 +47,3 @@ $input-height-base: ($line-height-computed + ($padding-base-vertical * 2));
 $input-height-large: (($font-size-large * $line-height-large) + ($padding-large-vertical * 2));
 //** Small `.form-control` height
 $input-height-small: (($font-size-small * $line-height-small) + ($padding-small-vertical * 2));
-

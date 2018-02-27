@@ -2,21 +2,16 @@
 $texture-path: '../images/textures';
 
 // Font weights.
-$fw-thin: 100; //*
 $fw-light: 300;
-$fw-regular: 400;  //*
+$fw-regular: 400;
 $fw-medium: 500;
 $fw-semibold: 600;
-$fw-bold: 700;  //*
-$fw-extrabold: 800;
 $fw-black: 900;
 
 // Font weight kits, re-map font-weights that are not in our kit.
-$fw-light: $fw-thin;
-$fw-medium: $fw-regular;
-$fw-semibold: $fw-bold;
-$fw-extrabold: $fw-bold;
-$fw-black: $fw-bold;
+$fw-thin: $fw-light;
+$fw-bold: $fw-semibold;
+$fw-extrabold: $fw-semibold;
 
 // Measurements.
 $toolbar-menu-height: 30px;
@@ -43,16 +38,20 @@ $main-wrapper-padding: 3rem;
 $text-max-width: 900px;
 $sf-expanded: 960px;
 
-// Region Background Colors.
-
 // Brand Colors.
 $brand-primary: #008080;
 $brand-secondary: #913d88;
 $brand-tertiary: #ba372a;;
-$brand-yellow: #ffce00;
+$brand-yellow: #ffcd00;
 $brand-old-gold: #81642b;
+$brand-white: #FFF;
+$brand-off-white: #f1ede6;
+
+// Region Background Colors.
+$header-bg-color: $brand-off-white;
+$footer-bg-color: #212221;
 
 // Text color styles.
 $disabled-text: #888;
-$link-visited: $brand-secondary;
+$link-visited: #885053; //$brand-secondary;
 $accessible-grey: #797676;

@@ -8,7 +8,7 @@
 /**
  * Implements hook_preprocess_region().
  */
-function {{machine_name}}_preprocess_region(&$vars) {
+function sunny_preprocess_region(&$vars) {
   // Combine #wrapper_classes with the region_classes.
   // @see page.inc
   if (isset($vars['elements']['#wrapper_classes'])) {

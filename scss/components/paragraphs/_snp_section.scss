@@ -1,0 +1,19 @@
+.paragraphs-item-snp-section.default {
+  padding: 2rem 0;
+}
+
+.section-title {
+  font-size: $font-size-h1;
+  position: relative;
+  padding-top: 14px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    height: 8px;
+    width: 40%;
+    background-color: $brand-yellow;
+  }
+}
