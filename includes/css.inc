@@ -8,7 +8,7 @@
 /**
  * Implements hook_css_alter().
  */
-function sunny_css_alter(&$css) {
+function {{machine_name}}_css_alter(&$css) {
   // Unset a bunch of core css.
   $exclude = array(
     'misc/vertical-tabs.css' => FALSE,
