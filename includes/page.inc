@@ -25,8 +25,8 @@ function {{machine_name}}_preprocess_page(&$vars) {
     $vars['page']['footer'][$name]['#wrapper_classes'][] =  'col-md-4';
   }
 
-  // No container on bundles using SiteNow Paragraphs.
-  if (isset($vars['node'])) {
+  // No container on pages using SiteNow Paragraphs which have no menu block.
+  if (isset($vars['node']) && empty($vars['page']['sidebar'])) {
     if ($vars['node']->type == 'page') {
       $vars['container'] = FALSE;
     }
