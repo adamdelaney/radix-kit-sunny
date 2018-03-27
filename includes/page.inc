@@ -37,6 +37,8 @@ function {{machine_name}}_preprocess_page(&$vars) {
  * Implements template_process_page().
  */
 function {{machine_name}}_process_page(&$vars) {
+  $vars['$content-classes'][] = 'main-content';
+
   // If there is no container set OR it's set to true.
   if (!isset($vars['container']) || $vars['container'] == TRUE) {
     // Add a container to '.main-content'.
