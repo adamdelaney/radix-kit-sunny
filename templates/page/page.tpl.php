@@ -70,7 +70,7 @@
         </div>
       </div>
     <?php endif; ?>
-    <div class="main-content <?php print $content_classes; ?>">
+    <div class="<?php print $content_classes; ?>">
       <div class="row">
         <?php print render($page['content']); ?>
         <?php print render($page['sidebar']); ?>
