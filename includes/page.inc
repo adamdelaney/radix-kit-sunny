@@ -45,7 +45,7 @@ function {{machine_name}}_process_page(&$vars) {
     $vars['content-classes'][] = 'container-smooth';
   }
 
-  if (isset($vars['$content-classes'])) {
+  if (isset($vars['content-classes'])) {
     // Add classes for the main_wrapper.
     $vars['content_classes'] = implode(' ', $vars['content-classes']);
   }
